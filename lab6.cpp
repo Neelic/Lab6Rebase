@@ -1,4 +1,4 @@
-#include <iostream> 
+//main commit 6
 //main commit 1
 
 //main commit 2
@@ -13,7 +13,7 @@ int main() {
     cout << "Enter operator either + or - or * or /: ";
     cin >> op;
     cout << "Enter two operands: ";
-    cin >> num1 >> num2;
+    cin >> num1; //main commit 6
 
     switch (op) {
         case '+':
