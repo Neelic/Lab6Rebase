@@ -17,11 +17,11 @@ int main() {
 
     switch (op) {
         case '+':
-            cout << num1 + num2;
+            printf(num1 + num2); //main commit 5
             break;
 
         case '-':
-            cout << num1 - num2;
+            printf(num1 - num2); //main commit 5
             break;
 
         case '*':
@@ -33,7 +33,7 @@ int main() {
             break;
 
         default:
-            cout << "Error! operator is not correct";
+            printf("Error! operator is not correct"); //main commit 5
             break;
     }
 
