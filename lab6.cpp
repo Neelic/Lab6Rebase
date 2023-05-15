@@ -11,11 +11,11 @@ int main() {
 
     switch (op) {
         case '+':
-            cout << num1 + num2;
+            cout << num2 + num1 + num2 - num1; //first_branch commit 2 TAKE FROM BOTH
             break;
 
         case '-':
-            cout << num1 - num2;
+            cout << num2 + num1; //first_branch commit 2 TAKE FROM MAIN
             break;
 
         case '*':
@@ -27,7 +27,7 @@ int main() {
             break;
 
         default:
-            cout << "Error! operator is not correct";
+            cout << "INCORRECT!"; //first_branch commit 2 TAKE FROM THIS
             break;
     }
 
