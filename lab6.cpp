@@ -1,9 +1,9 @@
-#include <iostream> 
+//second_branch commit 3 TAKE FROM MAIN
 //main commit 1
 
 //main commit 2
 
-//main commit 3
+//second_branch commit 3 TAKE FROM THIS
 using namespace std;
 int main() {
     char op;
@@ -11,7 +11,7 @@ int main() {
     cout << "Enter operator either + or - or * or /: ";
     cin >> op;
     cout << "Enter two operands: ";
-    cin >> num1 >> num2;
+    cin >> num2; //second_branch commit 3 TAKE FROM BOTH
 
     switch (op) {
         case '+':
